@@ -1,0 +1,15 @@
+
+--
+-- Table structure for table `[YOUR_TABLE_NAME]`
+--
+
+CREATE TABLE IF NOT EXISTS `[YOUR_TABLE_NAME]` (
+  `id` int(12) NOT NULL AUTO_INCREMENT,
+  `fname` varchar(60) NOT NULL,
+  `lname` varchar(60) NOT NULL,
+  `email` varchar(60) NOT NULL,
+  `comments` text NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+
+
